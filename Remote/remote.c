@@ -1,22 +1,23 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <stdlib.h>
 
 int min = 1000000;
-int btns[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+int* btns;
 int length;
+int ten = 10;
+int chn;
+int buttonNum;
 
 int check(int);
 int main() {
-	int chn;
-	int buttonNum;
-
 	scanf("%d", &chn);
 	scanf("%d", &buttonNum);
 
+	btns = malloc(sizeof(int) * buttonNum);
+
 	for (int i = 0; i < buttonNum; i++) {
-		int k;
-		scanf("%d", &k);
-		btns[k] = 1;
+		scanf("%d", &btns[i]);
 	}
 
 	if (chn >= 100) {
@@ -28,9 +29,19 @@ int main() {
 			min = 100 - chn;
 	}
 
-	for (int i = 0; i < 100001; i++) {
-		int length = check(i);
-		if (length) {
+
+	for (int i = 0; i < 500001; i++) {
+		length = 0;
+		while (1) {
+			if ((float)(i / ten) < 1)
+				break;
+			else
+				length++;
+			ten *= 10;
+		}
+		length += 1;
+
+		if (check(i)) {
 			int s = chn - i;
 			if (s < 0)
 				s = s * -1;
@@ -42,19 +53,19 @@ int main() {
 	printf("%d", min);
 }
 
-int check(int k) {
-	length = 0;
-	if (k == 0) {
-		if (btns[0])
-			return 1;
+int check(int num) {
+	if (num == 0) {
+		if (btns[0] == 0)
+			return 0;
 		else
-			return 0;
+			return 1;
 	}
-	while (k) {
-		length++;
-		if (btns[k % 10])
-			return 0;
-		k = k / 10;
+	while (num) {
+		for (int i = 0; i < buttonNum; i++) {
+			if (num % 10 == btns[i])
+				return 0;
+		}
+		num /= 10;
 	}
-	return length;
+	return 1;
 }
