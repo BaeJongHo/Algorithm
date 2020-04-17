@@ -14,7 +14,7 @@ int main() {
 	scanf("%d", &chn);
 	scanf("%d", &buttonNum);
 
-	btns = malloc(sizeof(int) * buttonNum);
+	btns = (int *)malloc(sizeof(int) * buttonNum);
 
 	for (int i = 0; i < buttonNum; i++) {
 		scanf("%d", &btns[i]);
@@ -29,8 +29,7 @@ int main() {
 			min = 100 - chn;
 	}
 
-
-	for (int i = 0; i < 500001; i++) {
+	for (int i = 0; i < 600001; i++) {
 		length = 0;
 		ten = 10;
 		while (1) {
