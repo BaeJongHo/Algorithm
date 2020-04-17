@@ -5,7 +5,7 @@
 int min = 1000000;
 int* btns;
 int length;
-int ten = 10;
+int ten;
 int chn;
 int buttonNum;
 
@@ -32,6 +32,7 @@ int main() {
 
 	for (int i = 0; i < 500001; i++) {
 		length = 0;
+		ten = 10;
 		while (1) {
 			if ((float)(i / ten) < 1)
 				break;
