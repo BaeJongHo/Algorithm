@@ -30,9 +30,9 @@ int main() {
 
 	shape1();
 	shape2();
-	/*
 	shape3();
 	shape4();
+	/*
 	shape5();
 	*/
 	printf("%d", max);
@@ -41,7 +41,7 @@ int main() {
 void shape1() {
 	for (int i = 0; i < N; i++) {
 		int result = 0;
-		for (int j = 0; j < M - 4; j++) {
+		for (int j = 0; j < M - 3; j++) {
 			result = board[i][j] + board[i][j + 1] + board[i][j + 2] + board[i][j + 3];
 			if (result > max)
 				max = result;
@@ -50,7 +50,7 @@ void shape1() {
 
 	for (int i = 0; i < N; i++) {
 		int result = 0;
-		for (int j = 0; j < M - 4; j++) {
+		for (int j = 0; j < M - 3; j++) {
 			result = board[j][i] + board[j + 1][i] + board[j + 2][i] + board[j + 3][i];
 			if (result > max)
 				max = result;
@@ -63,6 +63,118 @@ void shape2() {
 		int result = 0;
 		for (int j = 0; j < M - 1; j++) {
 			result = board[i][j] + board[i][j + 1] + board[i + 1][j] + board[i + 1][j + 1];
+			if (result > max)
+				max = result;
+		}
+	}
+}
+
+void shape3() {
+	for (int i = 0; i < N - 2; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 1; j++) {
+			result = board[i][j] + board[i + 1][j] + board[i + 2][j] + board[i + 2][j + 1];
+			if (result > max)
+				max = result;
+		}
+	}
+
+	for (int i = 0; i < N - 2; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 1; j++) {
+			result = board[i][j] + board[i + 1][j] + board[i + 2][j] + board[i][j + 1];
+			if (result > max)
+				max = result;
+		}
+	}
+
+	for (int i = 0; i < N - 1; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 2; j++) {
+			result = board[i][j] + board[i][j + 1] + board[i][j + 2] + board[i + 1][j];
+			if (result > max)
+				max = result;
+		}
+	}
+
+	for (int i = 0; i < N - 1; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 2; j++) {
+			result = board[i][j] + board[i][j + 1] + board[i][j + 2] + board[i + 1][j + 2];
+			if (result > max)
+				max = result;
+		}
+	}
+
+	for (int i = 2; i < N; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 1; j++) {
+			result = board[i][j] + board[i][j + 1] + board[i - 1][j + 1] + board[i - 2][j + 1];
+			if (result > max)
+				max = result;
+		}
+	}
+
+	for (int i = 0; i < N - 2; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 1; j++) {
+			result = board[i][j] + board[i][j + 1] + board[i + 1][j + 1] + board[i + 2][j + 1];
+			if (result > max)
+				max = result;
+		}
+	}
+
+	for (int i = 0; i < N - 1; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 2; j++) {
+			result = board[i][j] + board[i][j + 1] + board[i][j + 2] + board[i + 1][j + 2];
+			if (result > max)
+				max = result;
+		}
+	}
+
+	for (int i = 0; i < N - 1; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 2; j++) {
+			result = board[i][j] + board[i + 1][j] + board[i + 1][j + 1] + board[i + 1][j + 2];
+			if (result > max)
+				max = result;
+		}
+	}
+}
+
+void shape4() {
+	for (int i = 0; i < N - 2; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 1; j++) {
+			result = board[i][j] + board[i + 1][j] + board[i + 1][j + 1] + board[i + 2][j + 1];
+			if (result > max)
+				max = result;
+		}
+	}
+
+	for (int i = 0; i < N - 2; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 1; j++) {
+			result = board[i][j + 1] + board[i + 1][j] + board[i + 1][j + 1] + board[i + 2][j];
+			if (result > max)
+				max = result;
+		}
+	}
+
+	for (int i = 0; i < N - 1; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 2; j++) {
+			result = board[i][j] + board[i][j + 1] + board[i + 1][j + 1] + board[i + 1][j + 2];
+			if (result > max)
+				max = result;
+		}
+	}
+
+	for (int i = 0; i < N - 1; i++) {
+		int result = 0;
+		for (int j = 0; j < M - 2; j++) {
+			result = board[i + 1][j] + board[i + 1][j + 1] + board[i][j + 1] + board[i][j + 2];
 			if (result > max)
 				max = result;
 		}
