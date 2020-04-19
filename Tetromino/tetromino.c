@@ -35,6 +35,7 @@ int main() {
 	shape5();
 	
 	printf("%d", max);
+	return 0;
 }
 
 void shape1() {
