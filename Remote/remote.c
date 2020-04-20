@@ -29,9 +29,12 @@ int main() {
 			min = 100 - chn;
 	}
 
-	for (int i = 0; i < 600001; i++) {
-		length = 0;
+	for (int i = 0; i < 1000001; i++) {
+		
+		length = 1;
 		ten = 10;
+
+		//번호의 자릿수 계산
 		while (1) {
 			if ((float)(i / ten) < 1)
 				break;
@@ -39,8 +42,8 @@ int main() {
 				length++;
 			ten *= 10;
 		}
-		length += 1;
 
+		//누를 수 있는 번호면 그 번호에서부터 채널까지 가는 횟수 계산
 		if (check(i)) {
 			int s = chn - i;
 			if (s < 0)
@@ -53,13 +56,16 @@ int main() {
 	printf("%d", min);
 }
 
+//누를 수 있는 번호인지 확인
 int check(int num) {
 	if (num == 0) {
-		if (btns[0] == 0)
-			return 0;
-		else
-			return 1;
+		for (int i = 0; i < buttonNum; i++) {
+			if (btns[i] == 0)
+				return 0;
+		}
+		return 1;
 	}
+
 	while (num) {
 		for (int i = 0; i < buttonNum; i++) {
 			if (num % 10 == btns[i])
