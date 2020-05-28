@@ -1,0 +1,5 @@
+﻿  StartandLink2.cpp
+C:\Users\owner\source\repos\StartandLink2\StartandLink2.cpp(48,22): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\StartandLink2\StartandLink2.cpp(67,26): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\StartandLink2\StartandLink2.cpp(68,23): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  StartandLink2.vcxproj -> C:\Users\owner\source\repos\StartandLink2\Debug\StartandLink2.exe
