@@ -1,0 +1,4 @@
+﻿  Seoul_Metro.cpp
+C:\Users\owner\source\repos\Seoul_Metro\Seoul_Metro.cpp(50,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Seoul_Metro\Seoul_Metro.cpp(72,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Seoul_Metro.vcxproj -> C:\Users\owner\source\repos\Seoul_Metro\Debug\Seoul_Metro.exe
