@@ -1,0 +1,5 @@
+﻿  Div3_Mul2.cpp
+C:\Users\owner\source\repos\Div3_Mul2\Div3_Mul2.cpp(24,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Div3_Mul2\Div3_Mul2.cpp(34,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Div3_Mul2\Div3_Mul2.cpp(40,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Div3_Mul2.vcxproj -> C:\Users\owner\source\repos\Div3_Mul2\Debug\Div3_Mul2.exe
