@@ -1,0 +1,3 @@
+﻿  Max_difference.cpp
+C:\Users\owner\source\repos\Max_difference\Max_difference.cpp(26,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Max_difference.vcxproj -> C:\Users\owner\source\repos\Max_difference\Debug\Max_difference.exe
