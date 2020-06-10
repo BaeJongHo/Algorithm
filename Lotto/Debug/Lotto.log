@@ -1,0 +1,5 @@
+﻿  Lotto.cpp
+C:\Users\owner\source\repos\Lotto\Lotto.cpp(42,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Lotto\Lotto.cpp(51,22): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Lotto\Lotto.cpp(58,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Lotto.vcxproj -> C:\Users\owner\source\repos\Lotto\Debug\Lotto.exe
