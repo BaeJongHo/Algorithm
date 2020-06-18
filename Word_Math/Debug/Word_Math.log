@@ -1,0 +1,6 @@
+﻿  Word_Math.cpp
+C:\Users\owner\source\repos\Word_Math\Word_Math.cpp(35,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Word_Math\Word_Math.cpp(36,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Word_Math\Word_Math.cpp(55,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Word_Math\Word_Math.cpp(57,22): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Word_Math.vcxproj -> C:\Users\owner\source\repos\Word_Math\Debug\Word_Math.exe
