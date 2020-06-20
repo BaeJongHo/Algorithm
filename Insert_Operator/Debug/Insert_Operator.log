@@ -1,0 +1,3 @@
+﻿  Insert_Operator.cpp
+C:\Users\owner\source\repos\Insert_Operator\Insert_Operator.cpp(44,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Insert_Operator.vcxproj -> C:\Users\owner\source\repos\Insert_Operator\Debug\Insert_Operator.exe
