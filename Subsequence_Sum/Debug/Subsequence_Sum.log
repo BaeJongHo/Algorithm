@@ -1,0 +1,4 @@
+﻿  Subsequence_Sum.cpp
+C:\Users\owner\source\repos\Subsequence_Sum\Subsequence_Sum.cpp(37,22): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Subsequence_Sum\Subsequence_Sum.cpp(48,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Subsequence_Sum.vcxproj -> C:\Users\owner\source\repos\Subsequence_Sum\Debug\Subsequence_Sum.exe
