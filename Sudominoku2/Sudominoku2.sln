@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sudominoku2", "Sudominoku2.vcxproj", "{BDB021FC-1F4C-4266-8C40-81A5A0879FDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDB021FC-1F4C-4266-8C40-81A5A0879FDA}.Debug|x64.ActiveCfg = Debug|x64
+		{BDB021FC-1F4C-4266-8C40-81A5A0879FDA}.Debug|x64.Build.0 = Debug|x64
+		{BDB021FC-1F4C-4266-8C40-81A5A0879FDA}.Debug|x86.ActiveCfg = Debug|Win32
+		{BDB021FC-1F4C-4266-8C40-81A5A0879FDA}.Debug|x86.Build.0 = Debug|Win32
+		{BDB021FC-1F4C-4266-8C40-81A5A0879FDA}.Release|x64.ActiveCfg = Release|x64
+		{BDB021FC-1F4C-4266-8C40-81A5A0879FDA}.Release|x64.Build.0 = Release|x64
+		{BDB021FC-1F4C-4266-8C40-81A5A0879FDA}.Release|x86.ActiveCfg = Release|Win32
+		{BDB021FC-1F4C-4266-8C40-81A5A0879FDA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CF0F072-AF3B-4C57-BAF3-0178A8644D19}
+	EndGlobalSection
+EndGlobal
