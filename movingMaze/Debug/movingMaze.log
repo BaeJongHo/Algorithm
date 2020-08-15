@@ -1,0 +1,4 @@
+﻿  movingMaze.cpp
+C:\Users\owner\source\repos\movingMaze\movingMaze.cpp(58,24): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\movingMaze\movingMaze.cpp(67,25): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  movingMaze.vcxproj -> C:\Users\owner\source\repos\movingMaze\Debug\movingMaze.exe
