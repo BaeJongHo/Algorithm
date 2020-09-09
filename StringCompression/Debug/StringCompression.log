@@ -1,0 +1,5 @@
+﻿  StringCompression.cpp
+C:\Users\owner\source\repos\StringCompression\StringCompression.cpp(20,20): warning C4018:  '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\StringCompression\StringCompression.cpp(25,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\StringCompression\StringCompression.cpp(42,14): warning C4018:  '>=': signed 또는 unsigned가 일치하지 않습니다.
+  StringCompression.vcxproj -> C:\Users\owner\source\repos\StringCompression\Debug\StringCompression.exe
