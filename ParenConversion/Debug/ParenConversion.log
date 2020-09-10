@@ -1,0 +1,6 @@
+﻿  ParenConversion.cpp
+C:\Users\owner\source\repos\ParenConversion\ParenConversion.cpp(33,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\ParenConversion\ParenConversion.cpp(58,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\ParenConversion\ParenConversion.cpp(75,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\ParenConversion\ParenConversion.cpp(102,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  ParenConversion.vcxproj -> C:\Users\owner\source\repos\ParenConversion\Debug\ParenConversion.exe
