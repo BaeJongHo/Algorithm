@@ -1,0 +1,6 @@
+﻿  LyricsSearch.cpp
+C:\Users\owner\source\repos\LyricsSearch\LyricsSearch.cpp(15,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\LyricsSearch\LyricsSearch.cpp(18,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\LyricsSearch\LyricsSearch.cpp(24,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\LyricsSearch\LyricsSearch.cpp(39,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  LyricsSearch.vcxproj -> C:\Users\owner\source\repos\LyricsSearch\Debug\LyricsSearch.exe
