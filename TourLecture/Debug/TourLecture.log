@@ -1,0 +1,4 @@
+﻿  TourLecture.cpp
+C:\Users\owner\source\repos\TourLecture\TourLecture.cpp(29,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\TourLecture\TourLecture.cpp(32,23): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  TourLecture.vcxproj -> C:\Users\owner\source\repos\TourLecture\Debug\TourLecture.exe
