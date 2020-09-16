@@ -1,0 +1,10 @@
+﻿  LostParenthesis.cpp
+C:\Users\owner\source\repos\LostParenthesis\LostParenthesis.cpp(23,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\LostParenthesis\LostParenthesis.cpp(28,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\LostParenthesis\LostParenthesis.cpp(35,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\LostParenthesis\LostParenthesis.cpp(55,51): warning C4244: '인수': 'uint64_t'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\owner\source\repos\LostParenthesis\LostParenthesis.cpp(61,56): warning C4244: '인수': 'uint64_t'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\owner\source\repos\LostParenthesis\LostParenthesis.cpp(61,34): warning C4244: '인수': 'uint64_t'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\owner\source\repos\LostParenthesis\LostParenthesis.cpp(65,52): warning C4244: '인수': 'uint64_t'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\owner\source\repos\LostParenthesis\LostParenthesis.cpp(65,30): warning C4244: '인수': 'uint64_t'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LostParenthesis.vcxproj -> C:\Users\owner\source\repos\LostParenthesis\Debug\LostParenthesis.exe
