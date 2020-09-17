@@ -1,0 +1,2 @@
+C:\Users\owner\source\repos\TieNumber\Debug\TieNumber.exe
+C:\Users\owner\source\repos\TieNumber\Debug\TieNumber.pdb
