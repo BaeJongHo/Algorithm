@@ -1,0 +1,2 @@
+C:\Users\owner\source\repos\ContestOrIntern\Debug\ContestOrIntern.exe
+C:\Users\owner\source\repos\ContestOrIntern\Debug\ContestOrIntern.pdb
