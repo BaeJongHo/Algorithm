@@ -1,0 +1,4 @@
+﻿  Thirty.cpp
+C:\Users\owner\source\repos\Thirty\Thirty.cpp(19,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Thirty\Thirty.cpp(27,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Thirty.vcxproj -> C:\Users\owner\source\repos\Thirty\Debug\Thirty.exe

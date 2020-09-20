@@ -1,0 +1,2 @@
+C:\Users\owner\source\repos\Thirty\Debug\Thirty.exe
+C:\Users\owner\source\repos\Thirty\Debug\Thirty.pdb
