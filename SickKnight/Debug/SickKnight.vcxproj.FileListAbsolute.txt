@@ -1,0 +1,2 @@
+C:\Users\owner\source\repos\SickKnight\Debug\SickKnight.exe
+C:\Users\owner\source\repos\SickKnight\Debug\SickKnight.pdb
