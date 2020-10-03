@@ -1,0 +1,6 @@
+﻿  Kakao_Programming1.cpp
+C:\Users\owner\source\repos\Kakao_Programming1\Kakao_Programming1.cpp(14,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Kakao_Programming1\Kakao_Programming1.cpp(18,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Kakao_Programming1\Kakao_Programming1.cpp(26,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\owner\source\repos\Kakao_Programming1\Kakao_Programming1.cpp(61,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Kakao_Programming1.vcxproj -> C:\Users\owner\source\repos\Kakao_Programming1\Debug\Kakao_Programming1.exe
