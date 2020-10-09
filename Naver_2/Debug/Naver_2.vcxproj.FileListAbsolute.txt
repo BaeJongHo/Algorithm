@@ -1,0 +1,2 @@
+C:\Users\user\source\repos\Naver_2\Debug\Naver_2.exe
+C:\Users\user\source\repos\Naver_2\Debug\Naver_2.pdb

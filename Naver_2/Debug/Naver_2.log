@@ -1,0 +1,4 @@
+﻿  Naver_2.cpp
+C:\Users\user\source\repos\Naver_2\Naver_2.cpp(19,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\source\repos\Naver_2\Naver_2.cpp(32,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Naver_2.vcxproj -> C:\Users\user\source\repos\Naver_2\Debug\Naver_2.exe
